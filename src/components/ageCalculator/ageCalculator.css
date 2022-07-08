@@ -1,0 +1,12 @@
+.ageCalculator{
+  background-color: whitesmoke;
+  margin: 3%;
+  padding: 5%;
+}
+.ageResultDisplay{
+  text-align: center;
+  width: fit-content;
+  margin: 5% auto;
+  border-radius: 5%;
+  padding-bottom: 10%;
+}

@@ -1,0 +1,25 @@
+/* parent div tag  */
+.display{
+  margin: 5%;
+}
+
+.CalculatorDisplay{
+  background-color: whitesmoke;
+  border-radius: 3%;  
+  padding: 15px 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ResultDisplay{
+  text-align: center;
+  margin: 1px auto 3%;
+  width: fit-content;
+  height: fit-content;
+}
+
+h5{
+  margin: 35px 1px 10px;
+  color: black;
+  color: green;
+  font-weight: bold;
+}

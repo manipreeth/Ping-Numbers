@@ -1,0 +1,36 @@
+nav {
+  background-color: maroon;
+  padding: 10px;
+  border: 0.5px solid silver;
+  margin-bottom: 3%;
+  height: 280px;
+}
+nav a{
+  text-decoration : none;
+  color: white;
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
+nav a.active{
+  text-decoration : none;
+  font-weight:bold;
+  padding: 14px;
+  background-color: rgb(180, 180, 180,0.6);
+  color: black;
+  border-radius: 5px;
+}
+
+nav a:hover{
+  color:black;
+}
+
+@media screen and (min-width: 700px) {
+  nav {
+    height: fit-content
+  }
+  nav a {
+    display: inline-block;
+    margin-left: 12%;
+  }
+}

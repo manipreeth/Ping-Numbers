@@ -1,0 +1,33 @@
+/* Navigation links in compound intrest form */
+.intrestCalculatorNavBar{
+  margin: 3%;
+  padding: 2%;
+  background-color: rgba(140,140,140,0.9);
+  color: black;
+  text-decoration: none;
+  border-radius: 5%;
+  font-weight: bold;
+  color: maroon;
+}
+
+/* For both simple & compound intrest calculators */
+.intrestCalculator{
+  background-color: whitesmoke;
+  margin: 3%;
+  padding: 5%;
+}
+
+/* For both simple & compound intrest calculators */
+.intrestResultDisplay{
+  text-align: center;
+  width: fit-content;
+  margin: 3% auto;
+  border-radius: 5%;
+  padding: 2%;
+}
+
+/* Selected values in compound intrest form */
+span{
+  margin-left: 20%;
+  font-weight: bold;
+}

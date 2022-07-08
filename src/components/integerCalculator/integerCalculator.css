@@ -1,0 +1,80 @@
+#calculator-layout{
+    background-color: white;
+    border: 9px solid black;
+    max-width: fit-content;
+    max-height: fit-content;
+    margin: 2% auto;
+    padding: 5px;
+    border-radius: 9px;
+    box-shadow: 0 4px 28px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Inner numbers input area & result area*/
+#display{
+    text-align: right;
+    background-color:rgb(140, 140, 140);
+    color: white;
+    font-size:medium;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 5px;
+}
+
+/* Result displayed area */
+#result{
+    height: 45px;
+    font-size: 25px;
+    margin: 1px;
+}
+
+/* User input display area */
+#input{
+    height: 30px;
+    margin: 2px;
+    font-size: 20px;
+}
+
+/* 1st row of buttons */
+.row-1{
+    margin-top: 8px;
+}
+
+/* for all buttons */
+.button{
+    text-align: center;
+    padding: 21px;
+    margin: 2px;
+    border-color: turquoise;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: black;
+    color:white;
+}
+
+/* Multiplication button */
+#multiplication{
+    padding: 22px;
+}
+
+/* Divison button */
+#division{
+    padding-right: 28px;
+}
+
+/* Isequal-to button */
+#isequalto{
+    background-color: orange;
+    color: white;
+}
+
+/* Clear button */
+#clear{
+    background-color: rgba(255, 165, 0,0.9);
+    color: white;
+}
+
+.button:hover{
+    background-color: grey;
+    color: whitesmoke;
+}
